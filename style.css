@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('../fonts/caviar_dreams.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/caviar_dreams.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../fonts/caviar_dreams.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/caviar_dreams.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/caviar_dreams.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/caviar_dreams.svg#caviar_dreams') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+html {
+    font-family: 'Caviar Dreams', sans-serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    border-style: solid;
+    border-image-width: 15px;
+    border-color: #1a0e5f;
+}
+
+body {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #f0ede9;
+    padding: 0 20 px 20px 20px;
+}
+
+.title {
+    color: #1a0e5f;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(195, 245, 245);
+    padding: 20px 20px 20px 20px;
+}
+
+.text {
+    font-size: 20px;
+
+}
+
+.podzagolovok {
+    background-color: hsl(249, 74%, 21%);
+    color: rgb(195, 245, 245);
+    padding: 20px 0px 20px 20px;
+    text-align: center;
+}
+
+.num_spisok {
+    font-size: 23px;
+    padding-left: 70px;
+    color: hsl(249, 74%, 21%);
+    background-color: rgb(195, 245, 245);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+.dot_spisok {
+    background-color: rgb(195, 245, 245);
+    font-size: 23px;
+    padding-left: 70px;
+    color: hsl(249, 74%, 21%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+.hrefs {
+    background-color: hsl(249, 74%, 21%);
+    color: rgb(195, 245, 245);
+    font-style: italic;
+    font-size: 23px;
+    padding: 20px 20px 20px 20px;
+}
